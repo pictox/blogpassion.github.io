@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.ti {
+    font-size: 20px;
+    padding: 10px 10px;
+    font-weight: 400;
+}
+
+.program {
+    padding: 10px 10px;
+}
+
+.containe {
+    background-color: #1a73e8;
+    margin-right: 10px;
+    padding: 20px 20px;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.containe:active {
+    opacity: 20%;
+}
+
+::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+.btn-locate {
+    padding: 10px 10px;
+}
+
+button {
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #1a73e8;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button:active {
+    opacity: 20%;
+}

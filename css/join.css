@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Poppins&display=swap');
+
+ * {
+  box-sizing: border-box;
+ }
+
+html {
+    height: 100%;
+  }
+
+  body {
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0)), url('https://biteable.com/content/uploads/2018/01/royalty-free-images-cover_social-media-ls-1200x630-c-center.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: 0 30px 200px #fff;
+    border-radius: 10px;
+    color: #1a73e8;
+    transition: 0.3s;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #1a73e8;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #1a73e8;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #1a73e8;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #1a73e8;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #1a73e8;
+    font-size: 12px;
+  }
+  
+  .btn-sum {
+    color: #fff;
+    border-width: 0;
+    padding: .8rem 2rem;
+    background-color: #1a73e8;
+    border-color: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.1s;
+    font-size: 15px;
+  }
+
+  .btn-sum:hover {
+    transition: 0.2s;
+  }
+
+  .btn-sum:active {
+    opacity: 20%;
+    transition: 0.1s;
+  }
+
+  .back {
+    position: fixed;
+    top: 20px;
+    left: 32px;
+    text-decoration: none;
+    color: #1a73e8;
+    transition: 0.3s;
+  }
+
+  .back:hover {
+    transition: 0.3s;
+  }
+
+  .back:active {
+    opacity: 20%;
+    transition: 0.1s;
+  }
+
+  @media(max-width:768px) {
+    .login-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      box-sizing: border-box;
+      box-shadow: 0 30px 200px #fff;
+      border-radius: 10px;
+      color: #1a73e8;
+      transition: 0.3s;
+    }
+  }
+
+  @media(max-width:440px) {
+    .login-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 90%;
+      padding: 30px;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      box-sizing: border-box;
+      box-shadow: 0 30px 200px #fff;
+      border-radius: 10px;
+      color: #1a73e8;
+      transition: 0.3s;
+    }
+
+    .login-box h2 {
+      margin: 0 0 30px;
+      padding: 0;
+      color: #1a73e8;
+      text-align: center;
+      font-size: 20px;
+      transition: 0.3s;
+    }  
+  }
